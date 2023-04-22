@@ -1,0 +1,36 @@
+- Using Next.js / Tailwind CSS / Redux / Firebase / NextAuth
+------------------------------------------------------------
+npm install --save react@latest
+npm install react@latest react-dom@latest
+
+Using npm:
+npm install
+npm run dev
+
+Using yarn:
+npm install --global yarn
+yarn install
+yarn run dev
+------------------------------------------------------------
+tailwind.config.js
+Add Colors Needed
+------------------------------------------------------------
+create next.config.js  add safe domains
+------------------------------------------------------------
+install heroicons:
+yarn add @heroicons/react
+yarn add @heroicons/react@v1
+------------------------------------------------------------
+Multi Select to write once
+Select > Alt > Select
+------------------------------------------------------------
+Custom CSS:
+global.css
+------------------------------------------------------------
+Banner: React Resoisive Carousel
+yarn add react-responsive-carousel
+https://www.npmjs.com/package/react-responsive-carousel
+------------------------------------------------------------
+To Add Prices:
+yarn add react-currency-formatter
+------------------------------------------------------------
