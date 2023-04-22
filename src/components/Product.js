@@ -17,16 +17,14 @@ function Product({id, title, price, description, category, image}) {
     <div className='relative flex flex-col m-5 bg-white z-30 p-10'>
         <p className='absolute top-2 right-2 text-xs italic text-gray-400'>{category}</p>
 
-
         <Image
         src={image}
         height={200}
         width={200}
         objectFit='contain'
-        className="mx-auto h-70"
+        className="mx-auto min-h-[50%]"
         >
         </Image>
-
 
         <h4 className='my-3'>{title}</h4>
 
@@ -36,7 +34,7 @@ function Product({id, title, price, description, category, image}) {
             ))}
         </div>
 
-        <p className='text-xs mt-2 my-2 line-clamp-2'>{description}</p>
+        <p className='text-xs my-2 line-clamp-2'>{description}</p>
 
         <div className='mb-5'>
             <Currency quantity={price} currency='USD'></Currency>
