@@ -12,18 +12,21 @@ function Product({id, title, price, description, category, image}) {
         // Generate random value from 1 to 5
         Math.floor(Math.random() * (MAX_RATING - MIN_RATING + 1)) + MIN_RATING
     );
-    const [hasPrime] = useState(Math.random() < 0.5)
+    const [hasPrime] = useState(Math.random() < 0.5);
     return (
     <div className='relative flex flex-col m-5 bg-white z-30 p-10'>
         <p className='absolute top-2 right-2 text-xs italic text-gray-400'>{category}</p>
+
+
         <Image
         src={image}
         height={200}
         width={200}
         objectFit='contain'
-        className="mx-auto"
+        className="mx-auto h-70"
         >
         </Image>
+
 
         <h4 className='my-3'>{title}</h4>
 
